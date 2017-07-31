@@ -1,0 +1,5 @@
+require "./lib/hells-triangle"
+
+elements = [[6],[3,5],[9,7,1],[4,6,8,4]]
+hell_triangle = HellTriangle.new(elements)
+puts "The maximum total of the triangle #{elements} is: #{hell_triangle.maximum_total}"

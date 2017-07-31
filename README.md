@@ -56,3 +56,23 @@ max_index = nearest_values.index(nearest_values.max)
 summed_up = summed_up + nearest_values[max_index]
 prev_index = nearest_indexes[max_index]
 ```
+
+## Testando a solução:
+
+Clone esse projeto:
+
+```git
+git clone https://github.com/seujotta/hells-triangle.git
+```
+
+Renomeie o arquivo `use.rb.sample` para `use.rb` depois rode:
+
+```ruby
+bundle install
+```
+
+e rode
+
+```ruby
+`ruby use.rb`
+```
