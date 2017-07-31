@@ -74,5 +74,5 @@ bundle install
 e rode
 
 ```ruby
-`ruby use.rb`
+ruby use.rb
 ```
